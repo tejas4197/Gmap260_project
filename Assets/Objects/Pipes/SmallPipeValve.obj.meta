@@ -1,16 +1,17 @@
 fileFormatVersion: 2
-guid: 808336c99b53f8a4b9e0d5bb26375edb
+guid: 86ccaf4b4342db84bb29dd9f9d6185a0
+timeCreated: 1527044906
+licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: pCylinder2
+    100000: SmallPipeValve
     100002: //RootNode
-    400000: pCylinder2
+    400000: SmallPipeValve
     400002: //RootNode
-    2300000: pCylinder2
-    3300000: pCylinder2
-    4300000: pCylinder2
-    9500000: //RootNode
+    2300000: SmallPipeValve
+    3300000: SmallPipeValve
+    4300000: SmallPipeValve
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -88,7 +89,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
