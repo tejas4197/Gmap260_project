@@ -536,7 +536,7 @@ GameObject:
   - component: {fileID: 4060040576086840}
   - component: {fileID: 61593536373390878}
   m_Layer: 0
-  m_Name: trampoline_model
+  m_Name: trampolinePrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
