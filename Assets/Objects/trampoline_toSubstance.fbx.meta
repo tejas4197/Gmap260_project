@@ -1,0 +1,415 @@
+fileFormatVersion: 2
+guid: 9bc305984c0b6014d884036407bac448
+timeCreated: 1527043121
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: bouncy_part
+    100002: fan_section
+    100004: full_trampoline
+    100006: pCylinder10
+    100008: pCylinder10 1
+    100010: pCylinder10 2
+    100012: pCylinder10 3
+    100014: pCylinder10 4
+    100016: pCylinder4
+    100018: pCylinder4 1
+    100020: pCylinder4 2
+    100022: pCylinder4 3
+    100024: pCylinder4 4
+    100026: pCylinder5
+    100028: pCylinder5 1
+    100030: pCylinder5 2
+    100032: pCylinder5 3
+    100034: pCylinder5 4
+    100036: pCylinder6
+    100038: pCylinder6 1
+    100040: pCylinder6 2
+    100042: pCylinder6 3
+    100044: pCylinder6 4
+    100046: pCylinder7
+    100048: pCylinder7 1
+    100050: pCylinder7 2
+    100052: pCylinder7 3
+    100054: pCylinder7 4
+    100056: pCylinder8
+    100058: pCylinder8 1
+    100060: pCylinder8 2
+    100062: pCylinder8 3
+    100064: pCylinder8 4
+    100066: pCylinder9
+    100068: pCylinder9 1
+    100070: pCylinder9 2
+    100072: pCylinder9 3
+    100074: pCylinder9 4
+    100076: rim
+    100078: spring_1
+    100080: spring_2
+    100082: spring_3
+    100084: spring_4
+    100086: support_bottom
+    100088: support_top
+    100090: trampoline_section
+    100092: //RootNode
+    100094: wing_1
+    100096: wing_2
+    100098: wing_3
+    100100: wing_4
+    100102: wing_5
+    100104: wing_beam
+    100106: wing_beam 1
+    100108: wing_beam 2
+    100110: wing_beam 3
+    100112: wing_beam 4
+    100114: wing_body
+    100116: wing_body 1
+    100118: wing_body 2
+    100120: wing_body 3
+    100122: wing_body 4
+    100124: wing_edge
+    100126: wing_edge2
+    100128: wing_edge3
+    100130: wing_edge4
+    100132: wing_edge5
+    100134: wing_stabilizer_things
+    100136: wing_stabilizer_things 1
+    100138: wing_stabilizer_things 2
+    100140: wing_stabilizer_things 3
+    100142: wing_stabilizer_things 4
+    100144: wings
+    400000: bouncy_part
+    400002: fan_section
+    400004: full_trampoline
+    400006: pCylinder10
+    400008: pCylinder10 1
+    400010: pCylinder10 2
+    400012: pCylinder10 3
+    400014: pCylinder10 4
+    400016: pCylinder4
+    400018: pCylinder4 1
+    400020: pCylinder4 2
+    400022: pCylinder4 3
+    400024: pCylinder4 4
+    400026: pCylinder5
+    400028: pCylinder5 1
+    400030: pCylinder5 2
+    400032: pCylinder5 3
+    400034: pCylinder5 4
+    400036: pCylinder6
+    400038: pCylinder6 1
+    400040: pCylinder6 2
+    400042: pCylinder6 3
+    400044: pCylinder6 4
+    400046: pCylinder7
+    400048: pCylinder7 1
+    400050: pCylinder7 2
+    400052: pCylinder7 3
+    400054: pCylinder7 4
+    400056: pCylinder8
+    400058: pCylinder8 1
+    400060: pCylinder8 2
+    400062: pCylinder8 3
+    400064: pCylinder8 4
+    400066: pCylinder9
+    400068: pCylinder9 1
+    400070: pCylinder9 2
+    400072: pCylinder9 3
+    400074: pCylinder9 4
+    400076: rim
+    400078: spring_1
+    400080: spring_2
+    400082: spring_3
+    400084: spring_4
+    400086: support_bottom
+    400088: support_top
+    400090: trampoline_section
+    400092: //RootNode
+    400094: wing_1
+    400096: wing_2
+    400098: wing_3
+    400100: wing_4
+    400102: wing_5
+    400104: wing_beam
+    400106: wing_beam 1
+    400108: wing_beam 2
+    400110: wing_beam 3
+    400112: wing_beam 4
+    400114: wing_body
+    400116: wing_body 1
+    400118: wing_body 2
+    400120: wing_body 3
+    400122: wing_body 4
+    400124: wing_edge
+    400126: wing_edge2
+    400128: wing_edge3
+    400130: wing_edge4
+    400132: wing_edge5
+    400134: wing_stabilizer_things
+    400136: wing_stabilizer_things 1
+    400138: wing_stabilizer_things 2
+    400140: wing_stabilizer_things 3
+    400142: wing_stabilizer_things 4
+    400144: wings
+    2300000: bouncy_part
+    2300002: pCylinder10
+    2300004: pCylinder10 1
+    2300006: pCylinder10 2
+    2300008: pCylinder10 3
+    2300010: pCylinder10 4
+    2300012: pCylinder4
+    2300014: pCylinder4 1
+    2300016: pCylinder4 2
+    2300018: pCylinder4 3
+    2300020: pCylinder4 4
+    2300022: pCylinder5
+    2300024: pCylinder5 1
+    2300026: pCylinder5 2
+    2300028: pCylinder5 3
+    2300030: pCylinder5 4
+    2300032: pCylinder6
+    2300034: pCylinder6 1
+    2300036: pCylinder6 2
+    2300038: pCylinder6 3
+    2300040: pCylinder6 4
+    2300042: pCylinder7
+    2300044: pCylinder7 1
+    2300046: pCylinder7 2
+    2300048: pCylinder7 3
+    2300050: pCylinder7 4
+    2300052: pCylinder8
+    2300054: pCylinder8 1
+    2300056: pCylinder8 2
+    2300058: pCylinder8 3
+    2300060: pCylinder8 4
+    2300062: pCylinder9
+    2300064: pCylinder9 1
+    2300066: pCylinder9 2
+    2300068: pCylinder9 3
+    2300070: pCylinder9 4
+    2300072: rim
+    2300074: spring_1
+    2300076: spring_2
+    2300078: spring_3
+    2300080: spring_4
+    2300082: support_bottom
+    2300084: support_top
+    2300086: wing_beam
+    2300088: wing_beam 1
+    2300090: wing_beam 2
+    2300092: wing_beam 3
+    2300094: wing_beam 4
+    2300096: wing_body
+    2300098: wing_body 1
+    2300100: wing_body 2
+    2300102: wing_body 3
+    2300104: wing_body 4
+    3300000: bouncy_part
+    3300002: pCylinder10
+    3300004: pCylinder10 1
+    3300006: pCylinder10 2
+    3300008: pCylinder10 3
+    3300010: pCylinder10 4
+    3300012: pCylinder4
+    3300014: pCylinder4 1
+    3300016: pCylinder4 2
+    3300018: pCylinder4 3
+    3300020: pCylinder4 4
+    3300022: pCylinder5
+    3300024: pCylinder5 1
+    3300026: pCylinder5 2
+    3300028: pCylinder5 3
+    3300030: pCylinder5 4
+    3300032: pCylinder6
+    3300034: pCylinder6 1
+    3300036: pCylinder6 2
+    3300038: pCylinder6 3
+    3300040: pCylinder6 4
+    3300042: pCylinder7
+    3300044: pCylinder7 1
+    3300046: pCylinder7 2
+    3300048: pCylinder7 3
+    3300050: pCylinder7 4
+    3300052: pCylinder8
+    3300054: pCylinder8 1
+    3300056: pCylinder8 2
+    3300058: pCylinder8 3
+    3300060: pCylinder8 4
+    3300062: pCylinder9
+    3300064: pCylinder9 1
+    3300066: pCylinder9 2
+    3300068: pCylinder9 3
+    3300070: pCylinder9 4
+    3300072: rim
+    3300074: spring_1
+    3300076: spring_2
+    3300078: spring_3
+    3300080: spring_4
+    3300082: support_bottom
+    3300084: support_top
+    3300086: wing_beam
+    3300088: wing_beam 1
+    3300090: wing_beam 2
+    3300092: wing_beam 3
+    3300094: wing_beam 4
+    3300096: wing_body
+    3300098: wing_body 1
+    3300100: wing_body 2
+    3300102: wing_body 3
+    3300104: wing_body 4
+    4300000: rim
+    4300002: bouncy_part
+    4300004: spring_4
+    4300006: spring_3
+    4300008: spring_2
+    4300010: spring_1
+    4300012: support_top
+    4300014: support_bottom
+    4300016: wing_body
+    4300018: pCylinder10
+    4300020: pCylinder9
+    4300022: pCylinder8
+    4300024: pCylinder7
+    4300026: pCylinder6
+    4300028: pCylinder5
+    4300030: pCylinder4
+    4300032: wing_beam
+    4300034: wing_body
+    4300036: pCylinder10
+    4300038: pCylinder9
+    4300040: pCylinder8
+    4300042: pCylinder7
+    4300044: pCylinder6
+    4300046: pCylinder5
+    4300048: pCylinder4
+    4300050: wing_beam
+    4300052: wing_body
+    4300054: pCylinder10
+    4300056: pCylinder9
+    4300058: pCylinder8
+    4300060: pCylinder7
+    4300062: pCylinder6
+    4300064: pCylinder5
+    4300066: pCylinder4
+    4300068: wing_beam
+    4300070: wing_body
+    4300072: pCylinder10
+    4300074: pCylinder9
+    4300076: pCylinder8
+    4300078: pCylinder7
+    4300080: pCylinder6
+    4300082: pCylinder5
+    4300084: pCylinder4
+    4300086: wing_beam
+    4300088: wing_body
+    4300090: pCylinder10
+    4300092: pCylinder9
+    4300094: pCylinder8
+    4300096: pCylinder7
+    4300098: pCylinder6
+    4300100: pCylinder5
+    4300102: pCylinder4
+    4300104: wing_beam
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fan_base
+    second: {fileID: 2100000, guid: 340b002b0f6430f47b29b3d29ec35dc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fan_tops
+    second: {fileID: 2100000, guid: 1c21a23d4854b314492f76bdd16fb80b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: a932baa9e3d725144873460b99f00e0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: trampoline_bouncy_part
+    second: {fileID: 2100000, guid: 5ed1a374b76ad4942a0f95e67aee5789, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: trampoline_main_metal
+    second: {fileID: 2100000, guid: 90c177aff75cc1e418f9712e975eb74f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 98
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
