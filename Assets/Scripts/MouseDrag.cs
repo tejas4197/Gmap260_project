@@ -3,21 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MouseDrag: MonoBehaviour {
+    Vector3 dist;
+    float posx;
+    float posy;
 
-	 public float distance = 5;
-
-    private void OnMouseDrag()
-    {
-        Vector3 mousePosition = new Vector3(Input.mousePosition.x, Input.mousePosition.y, distance);
-        Vector3 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);
+    void OnMouseDown () {
+        dist = Camera.main.WorldToScreenPoint(transform.position);
+        posx = Input.mousePosition.x - dist.x;
+        posy = Input.mousePosition.y - dist.y;
     }
-
-    void Start () {
-		
-	}
 	
-	// Update is called once per frame
-	void Update () {
-		
+	void OnMouseDrag () {
+        Vector3 cPos = new Vector3(Input.mousePosition.x - posx, Input.mousePosition.y - posy, dist.z);
+        Vector3 wPos = Camera.main.ScreenToViewportPoint(cPos);
+        transform.position = wPos;
 	}
 }
