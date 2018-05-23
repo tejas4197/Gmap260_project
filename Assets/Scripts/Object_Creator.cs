@@ -51,8 +51,7 @@ public class Object_Creator : MonoBehaviour
                 angle = float.IsNaN(angle) ? 0 : angle;
 
                 // Fix orientation
-                // angle = deltaX > 0 ? angle - 90 : angle + 90;
-                angle = 0;
+                angle = deltaX > 0 ? angle - 90 : angle + 90;
 
                 // Quaternion representation of desired rotation of the object to be instantiated
                 objectRotation.eulerAngles = new Vector3(0, 0, angle);
