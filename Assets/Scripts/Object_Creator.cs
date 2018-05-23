@@ -40,12 +40,21 @@ public class Object_Creator : MonoBehaviour
                 // Position according to camera where the mouse was released
                 mouseReleasePos = new Vector3(hit.point.x, hit.point.y, 0);
 
+                // Get changes in positions for next calculation
+                float deltaY = mouseReleasePos.y - mouseClickPos.y;
+                float deltaX = mouseReleasePos.x - mouseClickPos.x;
+
                 // Use inverse tangent to figure out angle between mouse click and release
-                angle = Mathf.Atan((mouseReleasePos.y - mouseClickPos.y) / (mouseReleasePos.x - mouseClickPos.x)) * 180 / Mathf.PI;
+                angle = Mathf.Atan(deltaY / deltaX) * 180 / Mathf.PI;
+
+                // Check for arctan(0/0)
+                angle = float.IsNaN(angle) ? 0 : angle;
+
+                // Fix orientation
+                angle = deltaX > 0 ? angle - 90 : angle + 90;
 
                 // Quaternion representation of desired rotation of the object to be instantiated
-                // Ternary operator checks for NaN in case mouse click occurred in same location as mouse release (which would cause arctan(0/0))
-                objectRotation.eulerAngles = new Vector3(0, 0, (float.IsNaN(angle) ? 0 : angle - 90));
+                objectRotation.eulerAngles = new Vector3(0, 0, angle);
 
                 // Instantiate object at desired location with desired rotation
                 Instantiate(trampoline, mouseClickPos, objectRotation);
