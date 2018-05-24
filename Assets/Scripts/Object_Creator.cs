@@ -8,6 +8,7 @@ public class Object_Creator : MonoBehaviour
 
     public GameObject trampoline;
     public GameObject conveyor;
+    public GameObject wall;
     public Camera mainCamera;
     GameObject objectToPlace;
     Vector3 mouseClickPos;
@@ -28,6 +29,8 @@ public class Object_Creator : MonoBehaviour
             objectToPlace = trampoline;
         if (Input.GetKeyDown(KeyCode.Alpha2))
             objectToPlace = conveyor;
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+            objectToPlace = wall;
 
         if (Input.GetMouseButtonDown(0)) // If left mouse button was clicked this frame
         {
@@ -43,7 +46,7 @@ public class Object_Creator : MonoBehaviour
 
     private void PlaceObject(GameObject objectToPlace)
     {
-        if (objectToPlace.Equals(trampoline))
+        if (objectToPlace.Equals(trampoline) || objectToPlace.Equals(wall))
         {
             PlaceObjectWithRotation(objectToPlace);
         }
