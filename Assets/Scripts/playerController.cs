@@ -14,9 +14,14 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var x = Input.GetAxis("Horizontal") * Time.deltaTime * 150.0f;
-        var y = Input.GetAxis("Vertical") * Time.deltaTime * 3.0f;
-        transform.Rotate(0, x, 0);
+       
+    }
 
+    void OnCollisionEnter(Collision collision)
+    {
+        foreach (ContactPoint contact in collision.contacts)
+        {
+            Debug.DrawRay(contact.point, contact.normal, Color.white);
+        }
     }
 }

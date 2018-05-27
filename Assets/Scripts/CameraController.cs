@@ -8,9 +8,6 @@ public class CameraController : MonoBehaviour {
     public Vector3 offset;
 	// Use this for initialization
 	void Start () {
-        offset = transform.position - player.transform.position;
-
-		
 	}
 	
 	// Update is called once per frame
@@ -20,6 +17,9 @@ public class CameraController : MonoBehaviour {
 
     private void LateUpdate()
     {
-        transform.position = player.transform.position + offset;
+        offset = transform.position - player.transform.position;
+
+        if (player.transform.position.y > gameObject.transform.position.y)
+            gameObject.transform.position = new Vector3(transform.position.x, transform.position.y - offset.y, transform.position.z);
     }
 }
