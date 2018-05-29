@@ -1,0 +1,248 @@
+fileFormatVersion: 2
+guid: 1e2127f86e600694f8936a89a44f9842
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bar_1
+    100004: Bar_1 1
+    100006: Bar_2
+    100008: Bar_3
+    100010: Bar_4
+    100012: Bar_5
+    100014: Bar_6
+    100016: Bar_7
+    100018: Bar_8
+    100020: Bar_9
+    100022: Bars
+    100024: Bars 1
+    100026: Doorway
+    100028: Doorway 1
+    100030: Duct
+    100032: Duct 1
+    100034: Ductwork_Bent
+    100036: Ductwork_Straight
+    100038: Frame
+    100040: HorizontalFrame_1
+    100042: HorizontalFrame_2
+    100044: Ladder
+    100046: Lamp
+    100048: Pipe
+    100050: Pipe_1
+    100052: Vent_1
+    100054: Vent_1 1
+    100056: Vent_2
+    100058: Vent_2 1
+    100060: VerticalFrame_1
+    100062: VerticalFrame_2
+    100064: VerticalFrame_3
+    100066: VerticalFrame_4
+    100068: Walkway
+    100070: Wall
+    400000: //RootNode
+    400002: Bar_1
+    400004: Bar_1 1
+    400006: Bar_2
+    400008: Bar_3
+    400010: Bar_4
+    400012: Bar_5
+    400014: Bar_6
+    400016: Bar_7
+    400018: Bar_8
+    400020: Bar_9
+    400022: Bars
+    400024: Bars 1
+    400026: Doorway
+    400028: Doorway 1
+    400030: Duct
+    400032: Duct 1
+    400034: Ductwork_Bent
+    400036: Ductwork_Straight
+    400038: Frame
+    400040: HorizontalFrame_1
+    400042: HorizontalFrame_2
+    400044: Ladder
+    400046: Lamp
+    400048: Pipe
+    400050: Pipe_1
+    400052: Vent_1
+    400054: Vent_1 1
+    400056: Vent_2
+    400058: Vent_2 1
+    400060: VerticalFrame_1
+    400062: VerticalFrame_2
+    400064: VerticalFrame_3
+    400066: VerticalFrame_4
+    400068: Walkway
+    400070: Wall
+    2100000: lambert2
+    2300000: Bar_1
+    2300002: Bar_1 1
+    2300004: Bar_2
+    2300006: Bar_3
+    2300008: Bar_4
+    2300010: Bar_5
+    2300012: Bar_6
+    2300014: Bar_7
+    2300016: Bar_8
+    2300018: Bar_9
+    2300020: Doorway 1
+    2300022: Duct
+    2300024: Duct 1
+    2300026: HorizontalFrame_1
+    2300028: HorizontalFrame_2
+    2300030: Ladder
+    2300032: Lamp
+    2300034: Pipe
+    2300036: Vent_1
+    2300038: Vent_1 1
+    2300040: Vent_2
+    2300042: Vent_2 1
+    2300044: VerticalFrame_1
+    2300046: VerticalFrame_2
+    2300048: VerticalFrame_3
+    2300050: VerticalFrame_4
+    2300052: Walkway
+    2300054: Wall
+    3300000: Bar_1
+    3300002: Bar_1 1
+    3300004: Bar_2
+    3300006: Bar_3
+    3300008: Bar_4
+    3300010: Bar_5
+    3300012: Bar_6
+    3300014: Bar_7
+    3300016: Bar_8
+    3300018: Bar_9
+    3300020: Doorway 1
+    3300022: Duct
+    3300024: Duct 1
+    3300026: HorizontalFrame_1
+    3300028: HorizontalFrame_2
+    3300030: Ladder
+    3300032: Lamp
+    3300034: Pipe
+    3300036: Vent_1
+    3300038: Vent_1 1
+    3300040: Vent_2
+    3300042: Vent_2 1
+    3300044: VerticalFrame_1
+    3300046: VerticalFrame_2
+    3300048: VerticalFrame_3
+    3300050: VerticalFrame_4
+    3300052: Walkway
+    3300054: Wall
+    4300000: Walkway
+    4300002: Pipe
+    4300004: Bar_1
+    4300006: Bar_2
+    4300008: Bar_3
+    4300010: Bar_4
+    4300012: Bar_5
+    4300014: Vent_1
+    4300016: Vent_2
+    4300018: Duct
+    4300020: Vent_1
+    4300022: Vent_2
+    4300024: Duct
+    4300026: Lamp
+    4300028: HorizontalFrame_1
+    4300030: VerticalFrame_1
+    4300032: VerticalFrame_2
+    4300034: HorizontalFrame_2
+    4300036: VerticalFrame_3
+    4300038: VerticalFrame_4
+    4300040: Wall
+    4300042: Bar_1
+    4300044: Bar_7
+    4300046: Bar_9
+    4300048: Bar_8
+    4300050: Bar_6
+    4300052: Doorway
+    4300054: Ladder
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: e783584357cad26448df93508ab2b4e3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
