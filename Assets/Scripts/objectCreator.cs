@@ -10,6 +10,7 @@ public class objectCreator : MonoBehaviour
     public GameObject conveyor;
     public GameObject wall;
     public Camera mainCamera;
+    private GameObject instantiatedObj;
     GameObject objectToPlace;
     Vector3 mouseClickPos;
     Vector3 mouseReleasePos;
@@ -20,6 +21,7 @@ public class objectCreator : MonoBehaviour
     void Start()
     {
         objectToPlace = trampoline;
+        instantiatedObj = null;
     }
 
     // Update is called once per frame
@@ -46,6 +48,11 @@ public class objectCreator : MonoBehaviour
 
     private void PlaceObject(GameObject objectToPlace)
     {
+        if (instantiatedObj != null)
+        {
+            Destroy(instantiatedObj);
+        }
+
         if (objectToPlace.Equals(trampoline) || objectToPlace.Equals(wall))
         {
             PlaceObjectWithRotation(objectToPlace);
@@ -79,7 +86,7 @@ public class objectCreator : MonoBehaviour
             objectRotation.eulerAngles = new Vector3(0, angle, 0);
 
             // Instantiate object at desired location with desired rotation
-            Instantiate(@object, mouseClickPos, objectRotation);
+            instantiatedObj = Instantiate(@object, mouseClickPos, objectRotation);
         }
     }
 
@@ -113,7 +120,7 @@ public class objectCreator : MonoBehaviour
             objectRotation.eulerAngles = new Vector3(0, 0, angle);
 
             // Instantiate object at desired location with desired rotation
-            Instantiate(@object, mouseClickPos, objectRotation);
+            instantiatedObj = Instantiate(@object, mouseClickPos, objectRotation);
         }
     }
 }
