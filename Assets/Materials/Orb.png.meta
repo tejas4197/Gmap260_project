@@ -1,9 +1,19 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 0db368f206422544b9725f8c8d629171
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 5
+=======
+guid: be6ebddec326528429a81dd237c37f99
+timeCreated: 1526603340
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName: {}
+  externalObjects: {}
+  serializedVersion: 4
+>>>>>>> 06197ebe5504e5d08f617f8c71736a1aebe9ed78
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -51,13 +61,20 @@ TextureImporter:
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+<<<<<<< HEAD
   singleChannelComponent: 0
+=======
+>>>>>>> 06197ebe5504e5d08f617f8c71736a1aebe9ed78
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
+<<<<<<< HEAD
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
+=======
+  - buildTarget: DefaultTexturePlatform
+>>>>>>> 06197ebe5504e5d08f617f8c71736a1aebe9ed78
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -72,12 +89,15 @@ TextureImporter:
     sprites: []
     outline: []
     physicsShape: []
+<<<<<<< HEAD
     bones: []
     spriteID: 6c05a5c1e792b954a95a83684a340658
     vertices: []
     indices: 
     edges: []
     weights: []
+=======
+>>>>>>> 06197ebe5504e5d08f617f8c71736a1aebe9ed78
   spritePackingTag: 
   userData: 
   assetBundleName: 

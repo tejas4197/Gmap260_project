@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: 15af301010c4cc4409a112322efdbee8
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: base
+    100002: beam1
+    100004: beam2
+    100006: beam3
+    100008: beam4
+    100010: body
+    100012: bottom_IK_leg_1
+    100014: bottom_IK_leg_2
+    100016: bottom_IK_leg_3
+    100018: crawler_head
+    100020: front_mask_part1
+    100022: Geo
+    100024: IK_Handles
+    100026: //RootNode
+    100028: leg1
+    100030: leg1_IK
+    100032: leg1_IK_o2
+    100034: leg1_joint_1
+    100036: leg1_joint_2
+    100038: leg1_joint_3
+    100040: leg2
+    100042: leg2_IK
+    100044: leg2_IK_o
+    100046: leg2_joint_1
+    100048: leg2_joint_2
+    100050: leg2_joint_3
+    100052: leg2_joint_4
+    100054: leg3
+    100056: leg3_IK
+    100058: leg3_IK_o1
+    100060: leg3_joint2
+    100062: leg3_joint_1
+    100064: leg3_joint_3
+    100066: leg3_joint_4
+    100068: leg4
+    100070: leg5
+    100072: leg_1_bottom_IK
+    100074: leg_1_bottom_IK_o1
+    100076: leg_1_IK
+    100078: leg_1_joint_4
+    100080: leg_1_part_1
+    100082: leg_1_part_1 1
+    100084: leg_1_part_1 2
+    100086: leg_1_part_5
+    100088: leg_1_part_5 1
+    100090: leg_1_part_5 2
+    100092: leg_1_part_7
+    100094: leg_1_part_7 1
+    100096: leg_1_part_7 2
+    100098: leg_2_bottom_IK
+    100100: leg_2_bottom_IK_o
+    100102: leg_2_IK
+    100104: leg_3_bottom_IK
+    100106: leg_3_bottom_IK_o
+    100108: leg_3_IK
+    100110: main_head
+    100112: master_ctrl
+    100114: root
+    100116: root_ctrl
+    100118: root_ctrl_o
+    400000: base
+    400002: beam1
+    400004: beam2
+    400006: beam3
+    400008: beam4
+    400010: body
+    400012: bottom_IK_leg_1
+    400014: bottom_IK_leg_2
+    400016: bottom_IK_leg_3
+    400018: crawler_head
+    400020: front_mask_part1
+    400022: Geo
+    400024: IK_Handles
+    400026: //RootNode
+    400028: leg1
+    400030: leg1_IK
+    400032: leg1_IK_o2
+    400034: leg1_joint_1
+    400036: leg1_joint_2
+    400038: leg1_joint_3
+    400040: leg2
+    400042: leg2_IK
+    400044: leg2_IK_o
+    400046: leg2_joint_1
+    400048: leg2_joint_2
+    400050: leg2_joint_3
+    400052: leg2_joint_4
+    400054: leg3
+    400056: leg3_IK
+    400058: leg3_IK_o1
+    400060: leg3_joint2
+    400062: leg3_joint_1
+    400064: leg3_joint_3
+    400066: leg3_joint_4
+    400068: leg4
+    400070: leg5
+    400072: leg_1_bottom_IK
+    400074: leg_1_bottom_IK_o1
+    400076: leg_1_IK
+    400078: leg_1_joint_4
+    400080: leg_1_part_1
+    400082: leg_1_part_1 1
+    400084: leg_1_part_1 2
+    400086: leg_1_part_5
+    400088: leg_1_part_5 1
+    400090: leg_1_part_5 2
+    400092: leg_1_part_7
+    400094: leg_1_part_7 1
+    400096: leg_1_part_7 2
+    400098: leg_2_bottom_IK
+    400100: leg_2_bottom_IK_o
+    400102: leg_2_IK
+    400104: leg_3_bottom_IK
+    400106: leg_3_bottom_IK_o
+    400108: leg_3_IK
+    400110: main_head
+    400112: master_ctrl
+    400114: root
+    400116: root_ctrl
+    400118: root_ctrl_o
+    2100000: lambert1
+    2300000: base
+    2300002: beam1
+    2300004: beam2
+    2300006: beam3
+    2300008: beam4
+    2300010: front_mask_part1
+    2300012: leg_1_part_1
+    2300014: leg_1_part_1 1
+    2300016: leg_1_part_1 2
+    2300018: leg_1_part_5
+    2300020: leg_1_part_5 1
+    2300022: leg_1_part_5 2
+    2300024: leg_1_part_7
+    2300026: leg_1_part_7 1
+    2300028: leg_1_part_7 2
+    2300030: main_head
+    3300000: base
+    3300002: beam1
+    3300004: beam2
+    3300006: beam3
+    3300008: beam4
+    3300010: front_mask_part1
+    3300012: leg_1_part_1
+    3300014: leg_1_part_1 1
+    3300016: leg_1_part_1 2
+    3300018: leg_1_part_5
+    3300020: leg_1_part_5 1
+    3300022: leg_1_part_5 2
+    3300024: leg_1_part_7
+    3300026: leg_1_part_7 1
+    3300028: leg_1_part_7 2
+    3300030: main_head
+    4300000: leg_1_part_7
+    4300002: leg_1_part_5
+    4300004: leg_1_part_1
+    4300006: main_head
+    4300008: beam3
+    4300010: beam4
+    4300012: base
+    4300014: beam1
+    4300016: beam2
+    4300018: front_mask_part1
+    4300020: leg_1_part_7
+    4300022: leg_1_part_5
+    4300024: leg_1_part_1
+    4300026: leg_1_part_7
+    4300028: leg_1_part_5
+    4300030: leg_1_part_1
+    11100000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 102
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
