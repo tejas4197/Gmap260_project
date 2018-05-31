@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23979951224561284}
   - component: {fileID: 65044525948410224}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Test_Trampoline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
