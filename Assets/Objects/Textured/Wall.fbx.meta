@@ -1,28 +1,25 @@
 fileFormatVersion: 2
-guid: 450ca7334e4486449b555a7e7f97f75e
-timeCreated: 1527044905
-licenseType: Free
+guid: 339da1044334c1a4dbbb0f389d471ba8
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: SmallPipe
-    100002: //RootNode
-    400000: SmallPipe
-    400002: //RootNode
-    2300000: SmallPipe
-    3300000: SmallPipe
-    4300000: SmallPipe
+    100000: //RootNode
+    400000: //RootNode
+    2100000: lambert2
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: pCube2
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: initialShadingGroup
-    second: {fileID: 2100000, guid: 35149933b30e0d247a80c961e2af5c19, type: 2}
+      name: lambert2
+    second: {fileID: 2100000, guid: e783584357cad26448df93508ab2b4e3, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -36,6 +33,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -60,6 +58,8 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
