@@ -1,28 +1,25 @@
 fileFormatVersion: 2
-guid: 2965957a2ff2c8147b81cd67a911d2dd
-timeCreated: 1527044905
-licenseType: Free
+guid: 9ba9b9b98c2eb8a42ba760b736b59d16
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: LargePipeValve
-    100002: //RootNode
-    400000: LargePipeValve
-    400002: //RootNode
-    2300000: LargePipeValve
-    3300000: LargePipeValve
-    4300000: LargePipeValve
+    100000: //RootNode
+    400000: //RootNode
+    2100000: t_Background
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Background
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: initialShadingGroup
-    second: {fileID: 2100000, guid: 35149933b30e0d247a80c961e2af5c19, type: 2}
+      name: t_Background
+    second: {fileID: 2100000, guid: e7c01cfdaf467ec48b3903b5add959a9, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -36,6 +33,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -60,6 +58,8 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
