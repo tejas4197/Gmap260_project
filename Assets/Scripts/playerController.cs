@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class playerController : MonoBehaviour
 {
     public Camera mainCamera;
+    public GameObject conveyor;
 
     // Use this for initialization
     void Start()
@@ -25,11 +27,13 @@ public class playerController : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter(Collision collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
-        foreach (ContactPoint contact in collision.contacts)
+        
+        if (collision.gameObject.name == string.Format("{0}(Clone)", conveyor.name))
         {
-            Debug.DrawRay(contact.point, contact.normal, Color.white);
+            var dir = -collision.contacts[0].normal;
+            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(dir.x * 100, 50));
         }
     }
 }
