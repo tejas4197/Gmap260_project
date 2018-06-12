@@ -1,20 +1,82 @@
 fileFormatVersion: 2
-guid: c7384978707ee1a4cb0100328f82181b
+guid: 527c10317dfa2944090d78c11fc57872
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: t_Flag
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Flag
+    100000: Belt
+    100002: //RootNode
+    100004: pCylinder19
+    100006: pCylinder21
+    100008: Propeller
+    100010: Propeller1
+    100012: Propeller2
+    100014: Propeller3
+    100016: Wheel
+    100018: Wheel1
+    100020: Wheel2
+    100022: Wheel3
+    100024: Wheel4
+    100026: Wheel5
+    400000: Belt
+    400002: //RootNode
+    400004: pCylinder19
+    400006: pCylinder21
+    400008: Propeller
+    400010: Propeller1
+    400012: Propeller2
+    400014: Propeller3
+    400016: Wheel
+    400018: Wheel1
+    400020: Wheel2
+    400022: Wheel3
+    400024: Wheel4
+    400026: Wheel5
+    2100000: lambert3
+    2300000: Belt
+    2300002: pCylinder19
+    2300004: pCylinder21
+    2300006: Propeller
+    2300008: Propeller1
+    2300010: Propeller2
+    2300012: Propeller3
+    2300014: Wheel
+    2300016: Wheel1
+    2300018: Wheel2
+    2300020: Wheel3
+    2300022: Wheel4
+    2300024: Wheel5
+    3300000: Belt
+    3300002: pCylinder19
+    3300004: pCylinder21
+    3300006: Propeller
+    3300008: Propeller1
+    3300010: Propeller2
+    3300012: Propeller3
+    3300014: Wheel
+    3300016: Wheel1
+    3300018: Wheel2
+    3300020: Wheel3
+    3300022: Wheel4
+    3300024: Wheel5
+    4300000: Wheel5
+    4300002: Wheel4
+    4300004: Wheel
+    4300006: Belt
+    4300008: Wheel2
+    4300010: Wheel3
+    4300012: Propeller
+    4300014: pCylinder19
+    4300016: Propeller1
+    4300018: Propeller2
+    4300020: pCylinder21
+    4300022: Propeller3
+    4300024: Wheel1
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: t_Flag
-    second: {fileID: 2100000, guid: 52bcc553f7d8f7f48800cd08eecda5b9, type: 2}
+      name: lambert3
+    second: {fileID: 2100000, guid: f0c3a56f507bb8a4b87904338f458ee1, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
