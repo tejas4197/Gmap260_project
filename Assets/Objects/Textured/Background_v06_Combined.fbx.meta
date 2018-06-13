@@ -1,20 +1,20 @@
 fileFormatVersion: 2
-guid: c7384978707ee1a4cb0100328f82181b
+guid: 5416a4398e3432842a2cedd0d4f02f46
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: t_Flag
+    2100000: t_Background
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Flag
+    4300000: Background4
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: t_Flag
-    second: {fileID: 2100000, guid: 52bcc553f7d8f7f48800cd08eecda5b9, type: 2}
+      name: t_Background
+    second: {fileID: 2100000, guid: e7c01cfdaf467ec48b3903b5add959a9, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

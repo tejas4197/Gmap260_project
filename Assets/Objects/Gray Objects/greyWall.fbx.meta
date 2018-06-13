@@ -1,20 +1,20 @@
 fileFormatVersion: 2
-guid: c7384978707ee1a4cb0100328f82181b
+guid: e33bdef0d7cdf124ab55c64522071078
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: t_Flag
+    2100000: lambert2
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Flag
+    4300000: pCube2
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: t_Flag
-    second: {fileID: 2100000, guid: 52bcc553f7d8f7f48800cd08eecda5b9, type: 2}
+      name: lambert2
+    second: {fileID: 2100000, guid: f0c3a56f507bb8a4b87904338f458ee1, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
