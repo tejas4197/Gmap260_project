@@ -491,4 +491,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Cannonball: {fileID: 1864967717794094, guid: 5e6d1cc50e72c14499e91c5cbe0d7a8a, type: 2}
   RepeatRate: 1
-  CannonballSpeed: 500
+  CannonballSpeed: 1250

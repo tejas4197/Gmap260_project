@@ -27,7 +27,7 @@ public class CannonController : MonoBehaviour {
 	void LaunchCannonball()
     {
         GameObject instantiatedCannonball = Instantiate(Cannonball, Placement, Quaternion.identity);
-        Rigidbody rb = instantiatedCannonball.GetComponent<Rigidbody>();
+        Rigidbody2D rb = instantiatedCannonball.GetComponent<Rigidbody2D>();
         rb.AddForce(Velocity * CannonballSpeed);
     }
 }
