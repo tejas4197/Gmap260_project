@@ -22,7 +22,11 @@ GameObject:
   - component: {fileID: 33556267377798428}
   - component: {fileID: 23979951224561284}
   m_Layer: 0
+<<<<<<< HEAD:Assets/Prefabs/Test_Trampoline.prefab
+  m_Name: Test_Trampoline
+=======
   m_Name: testWall
+>>>>>>> 06197ebe5504e5d08f617f8c71736a1aebe9ed78:Assets/Prefabs/testWall.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
