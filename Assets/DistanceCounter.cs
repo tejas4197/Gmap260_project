@@ -4,21 +4,23 @@ using UnityEngine;
 
 public class DistanceCounter : MonoBehaviour
 {
-    Vector3 startPoint;
+    public GameObject startPoint;
     float timer = 0;
+    public GameObject endpoint;
+    public Rigidbody2D ball;
     // Update is called once per frame
     void Update()
     {
-        timer = Time.deltaTime;
-        float TimeRound = Mathf.Round(timer);
+        //timer = Time.deltaTime;
+        //float TimeRound = Mathf.Round(timer);
 
     }
     private void OnGUI()
     {
-        timer = Time.deltaTime;
-        float TimeRound = Mathf.Round(timer);
-        float meters = transform.position.y - startPoint.y;
-        float DistRound = Mathf.Round(meters);
-        GUI.Label(new Rect(10, 10, 100, 20), DistRound.ToString() + " " + TimeRound);
+        float height = endpoint.transform.position.y - startPoint.transform.position.y;
+        Debug.Log(height);
+        float travelHeight = height - ball.transform.position.y;
+        float DistRound = Mathf.Round(travelHeight);
+        GUI.Label(new Rect(10, 10, 100, 20), DistRound.ToString());
     }
 }
