@@ -27,13 +27,20 @@ public class playerController : MonoBehaviour
         }
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        
         if (collision.gameObject.name == string.Format("{0}(Clone)", conveyor.name))
         {
-            var dir = -collision.contacts[0].normal;
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(dir.x * 100, 50));
+            var rotation = collision.gameObject.transform.eulerAngles.z;
+            var dir = rotation == 90 ? 1 : -1;
+
+            gameObject.GetComponent<Rigidbody2D>().velocity = (new Vector2(dir * 10, 3));
         }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == string.Format("{0}(Clone)", conveyor.name))
+            gameObject.GetComponent<Rigidbody2D>().velocity = (new Vector2(0, 3));
     }
 }
