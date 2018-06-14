@@ -10,15 +10,13 @@ public class playerController : MonoBehaviour
     public Camera mainCamera;
     public GameObject conveyor;
 
-    public Text winUI;
-    public Text gameoverUI;
+    public Image gameoverUI;
 
     // Use this for initialization
     void Start()
     {
-        winUI.text = "";
-        gameoverUI.text = "";
-        Time.timeScale = 1f;
+        //gameoverUI.text = "";
+        
     }
 
     // Update is called once per frame
@@ -29,7 +27,8 @@ public class playerController : MonoBehaviour
         //If ball is not in camera
         if (ballInCameraPos.x < 0 || ballInCameraPos.x > 1 || ballInCameraPos.y < 0 || ballInCameraPos.y > 1)
         {
-            gameoverUI.text = "Game Over";
+            gameoverUI.enabled = true;
+            //gameoverUI.text = "Game Over";
             Invoke("LoadScene", 2f);
         }
     }
@@ -49,18 +48,6 @@ public class playerController : MonoBehaviour
     {
         if (collision.gameObject.name == string.Format("{0}(Clone)", conveyor.name))
             gameObject.GetComponent<Rigidbody2D>().velocity = (new Vector2(0, 3));
-    }
-
-    private void OnCollisionEnter(Collision2D col)
-    {
-        {
-            //slow motion when player completes the level
-            winUI.text = "Level Complete!";
-            Time.timeScale = .25f;
-
-            //reload the level
-            Invoke("LoadScene", 1f);
-        }
     }
 
     void LoadScene()
