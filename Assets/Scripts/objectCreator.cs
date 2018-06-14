@@ -14,6 +14,7 @@ public class objectCreator : MonoBehaviour
     public GameObject wallPreview;
     public Camera mainCamera;
     private GameObject instantiatedObj;
+    private GameObject instantiatedWall;
     GameObject objectToPlace;
     GameObject currentPreview;
     Vector3 mouseClickPos;
@@ -69,8 +70,15 @@ public class objectCreator : MonoBehaviour
     {
         if (instantiatedObj != null)
         {
-            Destroy(instantiatedObj);
+            if (!objectToPlace.Equals(wall))
+                Destroy(instantiatedObj);
         }
+        if (instantiatedWall != null)
+        {
+            if (objectToPlace.Equals(wall))
+                Destroy(instantiatedWall);
+        }
+
         if (currentPreview != null)
         {
             Destroy(currentPreview);
@@ -93,7 +101,10 @@ public class objectCreator : MonoBehaviour
 
     private void PlaceObjectWithRotation(GameObject @object)
     {
-        instantiatedObj = Instantiate(@object, mouseClickPos, getRotation());
+        if (objectToPlace.Equals(wall))
+            instantiatedWall = Instantiate(@object, mouseClickPos, getRotation());
+        else
+            instantiatedObj = Instantiate(@object, mouseClickPos, getRotation());
     }
 
     private Quaternion getRotationLimited()
