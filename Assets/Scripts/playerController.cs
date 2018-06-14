@@ -8,7 +8,9 @@ using UnityEngine.UI;
 public class playerController : MonoBehaviour
 {
     public Camera mainCamera;
+    public float trampolineForce;
     public GameObject conveyor;
+    public GameObject trampoline;
 
     public Image gameoverUI;
 
@@ -30,6 +32,14 @@ public class playerController : MonoBehaviour
             gameoverUI.enabled = true;
             //gameoverUI.text = "Game Over";
             Invoke("LoadScene", 2f);
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == string.Format("{0}(Clone)", trampoline.name))
+        {
+            gameObject.GetComponent<Rigidbody2D>().AddForce(collision.contacts[0].normal * trampolineForce);
         }
     }
 

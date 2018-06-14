@@ -24573,7 +24573,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 519420031}
+  trampolineForce: 800
   conveyor: {fileID: 1788022902098946, guid: 836e44d7e3aeb554faf6cf4e0a579236, type: 2}
+  trampoline: {fileID: 1362545118787614, guid: 458466708e50aa74a9bac4f594530a1b, type: 2}
   gameoverUI: {fileID: 699356175}
 --- !u!114 &1107363122
 MonoBehaviour:
@@ -48661,6 +48663,66 @@ Prefab:
     - target: {fileID: 4096812768811736, guid: b1077b03d4523bf4eb08865acf08ebc1, type: 2}
       propertyPath: m_LocalScale.z
       value: 0.00956989
+      objectReference: {fileID: 0}
+    - target: {fileID: 198311993504194664, guid: b1077b03d4523bf4eb08865acf08ebc1,
+        type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198311993504194664, guid: b1077b03d4523bf4eb08865acf08ebc1,
+        type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198311993504194664, guid: b1077b03d4523bf4eb08865acf08ebc1,
+        type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198311993504194664, guid: b1077b03d4523bf4eb08865acf08ebc1,
+        type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198311993504194664, guid: b1077b03d4523bf4eb08865acf08ebc1,
+        type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198311993504194664, guid: b1077b03d4523bf4eb08865acf08ebc1,
+        type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198311993504194664, guid: b1077b03d4523bf4eb08865acf08ebc1,
+        type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198311993504194664, guid: b1077b03d4523bf4eb08865acf08ebc1,
+        type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198311993504194664, guid: b1077b03d4523bf4eb08865acf08ebc1,
+        type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198311993504194664, guid: b1077b03d4523bf4eb08865acf08ebc1,
+        type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198311993504194664, guid: b1077b03d4523bf4eb08865acf08ebc1,
+        type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198311993504194664, guid: b1077b03d4523bf4eb08865acf08ebc1,
+        type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
       objectReference: {fileID: 0}
     - target: {fileID: 198311993504194664, guid: b1077b03d4523bf4eb08865acf08ebc1,
         type: 2}
