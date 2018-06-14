@@ -9,11 +9,13 @@ public class objectCreator : MonoBehaviour
     public GameObject trampoline;
     public GameObject conveyor;
     public GameObject wall;
-    public GameObject ghost;
+    public GameObject trampolinePreview;
+    public GameObject conveyorPreview;
+    public GameObject wallPreview;
     public Camera mainCamera;
     private GameObject instantiatedObj;
     GameObject objectToPlace;
-    GameObject currentGhost;
+    GameObject currentPreview;
     Vector3 mouseClickPos;
     Vector3 mouseHeldPos;
     Vector3 mouseReleasePos;
@@ -43,42 +45,19 @@ public class objectCreator : MonoBehaviour
             if (Physics.Raycast(mouseRay, out hit))
                 mouseClickPos = new Vector3(hit.point.x, hit.point.y, 0); // Position according to camera where the mouse click occurred
 
-            if (objectToPlace.Equals(trampoline) || objectToPlace.Equals(wall))
-            {
-                currentGhost = Instantiate(ghost, mouseClickPos, Quaternion.identity);
-            }
+            if (objectToPlace.Equals(trampoline))
+                currentPreview = Instantiate(trampolinePreview, mouseClickPos, Quaternion.identity);
+            if (objectToPlace.Equals(conveyor))
+                currentPreview = Instantiate(conveyorPreview, mouseClickPos, Quaternion.identity);
+            if (objectToPlace.Equals(wall))
+                currentPreview = Instantiate(wallPreview, mouseClickPos, Quaternion.identity);
         }
         if (Input.GetMouseButton(0))
         {
-            float angle;
-
-            mouseRay = mainCamera.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(mouseRay, out hit))
-            {
-                // Get identity quaternion so we can set the angle using Quaternion.eulerAngles
-                Quaternion objectRotation = Quaternion.identity;
-
-                // Position according to camera where the mouse was released
-                mouseHeldPos = new Vector3(hit.point.x, hit.point.y, 0);
-
-                // Get changes in positions for next calculation
-                float deltaY = mouseHeldPos.y - mouseClickPos.y;
-                float deltaX = mouseHeldPos.x - mouseClickPos.x;
-
-                // Use inverse tangent to figure out angle between mouse click and release
-                angle = Mathf.Atan(deltaY / deltaX) * 180 / Mathf.PI;
-
-                // Check for arctan(0/0)
-                angle = float.IsNaN(angle) ? 270 : angle;
-
-                // Fix orientation
-                angle = deltaX > 0 ? angle - 90 : angle + 90;
-
-                // Quaternion representation of desired rotation of the object to be instantiated
-                objectRotation.eulerAngles = new Vector3(0, 0, angle);
-                
-                currentGhost.transform.SetPositionAndRotation(currentGhost.transform.position, objectRotation);
-            }
+            if (currentPreview.name == string.Format("{0}(Clone)", conveyorPreview.name))
+                currentPreview.transform.SetPositionAndRotation(currentPreview.transform.position, getRotationLimited());
+            else
+                currentPreview.transform.SetPositionAndRotation(currentPreview.transform.position, getRotation());
         }
         else if (Input.GetMouseButtonUp(0)) // If right mouse button was released this frame
         {
@@ -92,9 +71,9 @@ public class objectCreator : MonoBehaviour
         {
             Destroy(instantiatedObj);
         }
-        if (currentGhost != null)
+        if (currentPreview != null)
         {
-            Destroy(currentGhost);
+            Destroy(currentPreview);
         }
 
         if (objectToPlace.Equals(trampoline) || objectToPlace.Equals(wall))
@@ -108,6 +87,16 @@ public class objectCreator : MonoBehaviour
     }
 
     private void PlaceObjectWithLimitedRotation(GameObject @object)
+    {
+        instantiatedObj = Instantiate(@object, mouseClickPos, getRotationLimited());
+    }
+
+    private void PlaceObjectWithRotation(GameObject @object)
+    {
+        instantiatedObj = Instantiate(@object, mouseClickPos, getRotation());
+    }
+
+    private Quaternion getRotationLimited()
     {
         float angle;
 
@@ -129,12 +118,13 @@ public class objectCreator : MonoBehaviour
             // Quaternion representation of desired rotation of the object to be instantiated
             objectRotation.eulerAngles = new Vector3(0, 0, angle);
 
-            // Instantiate object at desired location with desired rotation
-            instantiatedObj = Instantiate(@object, mouseClickPos, objectRotation);
+            return objectRotation;
         }
+        else
+            return Quaternion.identity;
     }
 
-    private void PlaceObjectWithRotation(GameObject @object)
+    private Quaternion getRotation()
     {
         float angle;
 
@@ -163,8 +153,9 @@ public class objectCreator : MonoBehaviour
             // Quaternion representation of desired rotation of the object to be instantiated
             objectRotation.eulerAngles = new Vector3(0, 0, angle);
 
-            // Instantiate object at desired location with desired rotation
-            instantiatedObj = Instantiate(@object, mouseClickPos, objectRotation);
+            return objectRotation;
         }
+        else
+            return Quaternion.identity;
     }
 }
