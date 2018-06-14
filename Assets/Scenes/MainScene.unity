@@ -48682,6 +48682,16 @@ Prefab:
       propertyPath: ShapeModule.radiusThickness
       value: 1.0000
       objectReference: {fileID: 0}
+    - target: {fileID: 198311993504194664, guid: b1077b03d4523bf4eb08865acf08ebc1,
+        type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
+    - target: {fileID: 198311993504194664, guid: b1077b03d4523bf4eb08865acf08ebc1,
+        type: 2}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1.0000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1077b03d4523bf4eb08865acf08ebc1, type: 2}
   m_IsPrefabParent: 0
@@ -49053,9 +49063,12 @@ MonoBehaviour:
   trampoline: {fileID: 1362545118787614, guid: 458466708e50aa74a9bac4f594530a1b, type: 2}
   conveyor: {fileID: 1788022902098946, guid: 836e44d7e3aeb554faf6cf4e0a579236, type: 2}
   wall: {fileID: 1608561224917646, guid: 95ab83a55be0c0345b4c51b34dc798ea, type: 2}
-  trampolinePreview: {fileID: 0}
-  conveyorPreview: {fileID: 0}
-  wallPreview: {fileID: 0}
+  trampolinePreview: {fileID: 1655520980476734, guid: c92a56b7dadb34e479526a0984422272,
+    type: 2}
+  conveyorPreview: {fileID: 1322641879320738, guid: c687ac6b81627544bb053064cd7a58c9,
+    type: 2}
+  wallPreview: {fileID: 1600097661053538, guid: 7b57970fc3d01b140a947638a06af902,
+    type: 2}
   mainCamera: {fileID: 519420031}
 --- !u!4 &1941203078
 Transform:
@@ -49489,11 +49502,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4419573611402178, guid: 7438dbadbd1d2d64c806298889187338, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.2
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 4419573611402178, guid: 7438dbadbd1d2d64c806298889187338, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 16.7
+      value: 281.99
       objectReference: {fileID: 0}
     - target: {fileID: 4419573611402178, guid: 7438dbadbd1d2d64c806298889187338, type: 2}
       propertyPath: m_LocalPosition.z
